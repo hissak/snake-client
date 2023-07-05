@@ -12,7 +12,7 @@ const connect = function () {
           // conn.write("Move: up");
       });
     conn.on("data", (data) => {
-        console.log(data)
+        console.log(data);
           })  
   return conn;
 };
