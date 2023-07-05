@@ -22,6 +22,9 @@ const handleUserInput = function (input) {
   if (input === 'd') {
     conn.write ('Move: right');
   };
+  if (input === 'z') {
+    conn.write ('Say: EZPZ');
+  };
 
 };
   stdin.on("data", handleUserInput);
